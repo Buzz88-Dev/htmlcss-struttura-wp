@@ -10,12 +10,10 @@ body {
 }
 
 header, footer {
-
     /* debug */
     background-color: red;
     height: 100px;
 }
-
 
 .block-yellow {
     margin-top: 20px;
@@ -51,27 +49,21 @@ header, footer {
     clear: both;
 }
 
-.blocksx {
-    float: left;
+.blockside {
     width: 20%;
     /* debug */
     /* height: 230px; */
     background-color: aqua;
 }
 
-.blockdx {
-    float: right;
-    width: 20%;
-    /* debug */
-    height: 230px;
-    background-color: aqua;
+.float {
+    float: left;
 }
 
 .blockct {
-    float: left;
     width: 50%;
     margin: 0px 5%;
     /* debug */
-    height: 230px;
+    /* height: 230px; */
     background-color: aqua;
 }
