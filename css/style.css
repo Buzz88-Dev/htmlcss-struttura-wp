@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 10px auto;
+}
+
+header, footer {
+
+    /* debug */
+    background-color: red;
+    height: 100px;
+}
+
+
+.block-yellow {
+    margin-top: 20px;
+    /* debug */
+    height: 300px;
+    background-color: yellow;
+}
+
+.block-bluelight {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* debug */
+    height: 300px;
+    background-color: blue;
+}
+
+.leadership {
+
+    /* debug */
+    height: 50px;
+    background-color: aqua;
+
+}
+
+.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.blocksx {
+    float: left;
+    width: 20%;
+    /* debug */
+    height: 230px;
+    background-color: aqua;
+}
+
+.blockdx {
+    float: right;
+    width: 20%;
+    /* debug */
+    height: 230px;
+    background-color: aqua;
+}
+
+.blockct {
+    float: left;
+    width: 50%;
+    margin: 0px 5%;
+    /* debug */
+    height: 230px;
+    background-color: aqua;
+}
